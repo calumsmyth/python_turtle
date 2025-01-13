@@ -8,7 +8,7 @@ sally = Turtle()
 
 john.color("blue")
 bob.color("red")
-sally.color('blue')
+sally.color('green')
 
 john.penup()
 john.goto(-160,100)
