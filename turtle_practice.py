@@ -1,3 +1,30 @@
-print("Hello World!")
-#Start of practice branch
-#Testing adding to practice branch when previously merged
+import turtle
+from turtle import *
+from random import randint
+
+john = Turtle()
+bob = Turtle()
+sally = Turtle()
+
+john.color("blue")
+bob.color("red")
+sally.color('blue')
+
+john.penup()
+john.goto(-160,100)
+john.pendown()
+
+bob.penup()
+bob.goto(-160, 70)
+bob.pendown()
+
+sally.penup()
+sally.goto(-160, 40)
+sally.pendown()
+
+for movement in range(100):
+    john.forward(randint(1,5)),
+    bob.forward(randint(1,5)),
+    sally.forward(randint(1,5)),
+
+input("Press Enter to close")
